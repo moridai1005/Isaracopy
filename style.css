@@ -836,6 +836,13 @@ width:50%;
     font-weight:900;
 }
 
+.thirteenth-block .up {
+    display:none;
+}
+.thirteenth-block .down {
+    display:none;
+}
+
 /*resposive of smartphone*/
 @media screen and (max-width:480px) {
 
