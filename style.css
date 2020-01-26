@@ -354,7 +354,8 @@ header {
 
 .seventh-block ul {
     display:flex;
-    padding:0 210px;
+    width:80%;
+    margin:0 auto;
 }
 
 .seventh-block ul li {
@@ -836,12 +837,12 @@ width:50%;
     font-weight:900;
 }
 
-.thirteenth-block .up {
+.thirteenth-block .content .up {
     display:none;
 }
-.thirteenth-block .down {
+.thirteenth-block .content .down {
     display:none;
-}
+} 
 
 /*resposive of smartphone*/
 @media screen and (max-width:480px) {
@@ -1067,7 +1068,7 @@ width:50%;
         position:absolute;
         right:15px;
         top:20px;
-        
+        display:block;
     }
 
     .thirteenth-block .content ul li h2 br {
